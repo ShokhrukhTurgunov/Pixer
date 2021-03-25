@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="header-nav">
+    <nav class="nav">
         <div class="container">
             <nav class="header-nav">
                 <img class="nav-img" src="/img/logo.png" alt="logo-image" width="58" height="20">
                 <ul class="nav-list">
-                    <li class="nav-item">Bosh sahifa</li>
-                    <li class="nav-item">Xizmatlar</li>
-                    <li class="nav-item">Portfolio</li>
-                    <li class="nav-item">Jamoa</li>
-                    <li class="nav-item">Blog</li>
-                    <li class="nav-item">Kontaktlar</li>
+                    <li class="nav-item"><a class="nav-link" href="#">Bosh sahifa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Xizmatlar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Jamoa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Kontaktlar</a></li>
                 </ul>
                 <a class="phone-link" href="#" type="tel">+99890 921 37 11</a>
             </nav>
@@ -40,7 +40,7 @@
                 <a class="section-link" href="#">Xizmatlar bilan tanishish</a>
             </div>
             <div class="right-section">
-                <a class="right-section-link" href="#"><img src="/img/youtube-embed.png" alt="" class="right-section-img"></a>
+                <a class="right-section-link" href="#"><iframe width="560" height="315" src="https://www.youtube.com/embed/NL7X0u8et6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
             </div>
             </section>
         </div>
@@ -148,9 +148,9 @@
         <h3 class="ordering-header">Buyurtma berish</h3>
         <p class="ordering-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget<br> sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
         <form class="ordering-form" action="google.com" method="POST">
-            <input class="order-input" type="text" name="username" value="Ismingiz">
+            <input class="order-input" type="text" name="username" placeholder="Ismingiz">
             <br>
-            <input class="order-input" type="text" name="phone-number" value="Telefon raqamingiz">
+            <input class="order-input" type="text" name="phone-number" placeholder="Telefon raqamingiz">
             <br>
             <select class="order-input" name="service">
                 <option value="services">Xizmat turi</option>
