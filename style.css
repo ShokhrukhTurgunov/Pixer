@@ -10,13 +10,19 @@ body{
     width: 1100px;
     margin: 0 auto;
 }
-.header-nav{
+.nav{
     display: flex;
     align-items: center;
     height: 56px;
     background: #FFFFFF;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
     border: none;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    height: 56px;
+    background: #FFFFFF;
 }
 .nav-list{
     display: flex;
@@ -28,6 +34,10 @@ body{
     margin-left: 30px;
     font-size: 15px;
     line-height: 24px;
+    color: #000000;
+}
+.nav-link{
+    text-decoration: none;
     color: #000000;
 }
 .phone-link{
