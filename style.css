@@ -102,11 +102,11 @@ body{
     line-height: 24px;
     color: #FFFFFF;
     background: #00BAFC;
+    border: 1px solid #00BAFC;
 }
 .phone-link:hover{
     background-color: #ffffff;
     color: #00BAFC;
-    border: 1px solid #00BAFC;
 }
 .phone-link:active{
     background-color: #00BAFC99;
