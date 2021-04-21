@@ -97,55 +97,55 @@
                 <a class="left-side-link" href="#">Xizmatlar bilan tanishish</a>
             </div>
             <div class="right-side">
-                <a class="right-section-link" href="#"><iframe width="560" height="315" src="https://www.youtube.com/embed/NL7X0u8et6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/NL7X0u8et6Q" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </section>
 
 
     <main>
-        <div class="container">
-            <section class="services-section">
+        <section class="services-section">
+            <div class="container"></div>
                 <h2 class="services-title">Xizmatlar</h2>
                 <p class="services-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
                 <ul class="services-list">
-                    <a class="services-link" href="#">
-                        <li class="services-item need-space">
-                        <h2 class="sercices-item-title veb-service-title">Vebsayt tuzish</h2>
-                        <p class="services-item-text">lorem ipsum.</p>
+                    <li class="services-item need-space">
+                        <a class="services-link" href="#">
+                            <h2 class="sercices-item-title veb-service-title">Vebsayt tuzish</h2>
+                            <p class="services-item-text">lorem ipsum.</p>
+                        </a>
                     </li>
-                    </a>
-                    <a class="services-link" href="#">
-                        <li class="services-item need-space">
-                        <h2 class="sercices-item-title telegram-service-title">Telegram bot</h2>
-                        <p class="services-item-text">lorem ipsum.</p>
+                    <li class="services-item need-space">
+                        <a class="services-link" href="#">
+                            <h2 class="sercices-item-title telegram-service-title">Telegram bot</h2>
+                            <p class="services-item-text">lorem ipsum.</p>
+                        </a>
                     </li>
-                    </a>
-                    <a class="services-link" href="#">
-                        <li class="services-item">
-                        <h2 class="sercices-item-title smm-service-title">SMM</h2>
-                        <p class="services-item-text">lorem ipsum.</p>
+                    <li class="services-item">
+                        <a class="services-link" href="#">
+                            <h2 class="sercices-item-title smm-service-title">SMM</h2>
+                            <p class="services-item-text">lorem ipsum.</p>
+                        </a>
                     </li>
-                    </a>
-                    <a class="services-link" href="#">
-                        <li class="services-item need-space">
-                        <h2 class="sercices-item-title grafik-service-title">Grafik dizayn</h2>
-                        <p class="services-item-text">lorem ipsum.</p>
+                    <li class="services-item need-space">
+                        <a class="services-link" href="#">
+                            <h2 class="sercices-item-title grafik-service-title">Grafik dizayn</h2>
+                            <p class="services-item-text">lorem ipsum.</p>
+                        </a>
                     </li>
-                    </a>
-                    <a class="services-link" href="#">
-                        <li class="services-item">
-                        <h2 class="sercices-item-title crm-service-title">CRM tizimlar</h2>
-                        <p class="services-item-text">lorem ipsum.</p>
+                    <li class="services-item">
+                        <a class="services-link" href="#">
+                            <h2 class="sercices-item-title crm-service-title">CRM tizimlar</h2>
+                            <p class="services-item-text">lorem ipsum.</p>
+                        </a>
                     </li>
-                    </a>
                 </ul>
                 <div class="using-services">
-                    <a class="using-services-btn" type="submit">Buyurtma berish</a>
+                    <a class="using-services-btn">Buyurtma berish</a>
                     <a href="#" class="using-services-link">Xizmatlar sahifasiga o’tish</a>
-                </div> 
-            </section>
-        </div>
+                </div>
+            </div> 
+        </section>
 
         <section class="working-section">
             <h2 class="work-section-title">Biz qanday ishlaymiz?</h2>
@@ -183,7 +183,7 @@
                 </li>
             </ul>
             <div class="order-link-box">
-                <a class="using-services-btn" type="submit">Buyurtma berish</a>  
+                <a class="using-services-btn" href="#">Buyurtma berish</a>  
             </div>         
         </section>
     </main>
@@ -193,14 +193,11 @@
         <p class="ordering-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget<br> sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
         <form class="ordering-form" action="google.com" method="POST">
             <input class="order-input" type="text" name="username" placeholder="Ismingiz">
-            <br>
             <input class="order-input" type="text" name="phone-number" placeholder="Telefon raqamingiz">
-            <br>
-            <select class="order-input" name="service">
+            <select class="order-select" name="service">
                 <option value="services">Xizmat turi</option>
             </select>
-            <br>
-            <a class="using-services-btn" type="submit">Buyurtma berish</a>
+            <a class="using-services-btn" href="#">Buyurtma berish</a>
         </form>
     </section>
 
